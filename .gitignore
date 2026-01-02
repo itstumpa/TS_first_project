@@ -1,0 +1,43 @@
+node_modules
+dist
+.env
+.vscode
+.DS_Store
+coverage
+npm-debug.log
+yarn-error.log
+.idea
+*.log
+*.swp
+/build
+/tmp
+*.bak
+
+
+# Ignore OS generated files
+Thumbs.db
+Desktop.ini
+
+
+# Ignore IDE specific files
+*.iml
+*.sublime-project
+*.sublime-workspace
+# Ignore test output
+test-output/
+*.rej
+# Ignore compiled files
+*.class
+*.o
+*.so
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# Ignore local configuration files
+*.local
+.env.local
+.env.*.local
+# Ignore coverage reports
+coverage/
+.nyc_output/
